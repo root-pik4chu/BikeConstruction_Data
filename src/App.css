@@ -1,0 +1,7 @@
+h1 div::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: attr(data-char);
+   transform: translateY(-103%);
+ }

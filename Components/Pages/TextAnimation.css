@@ -1,0 +1,33 @@
+/* TextAnimation.css */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+:root {
+  --heading-size: 20vw;
+}
+
+.heading {
+  padding: 0;
+  font-size: var(--heading-size);
+  line-height: 0.75;
+  display: flex;
+  overflow: hidden;
+  padding-bottom: 0.5vw;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.letter-container {
+  display: inline-block;
+  letter-spacing: -0.3vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.letter {
+  display: inline-block;
+}
+
+.before-letter {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
